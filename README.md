@@ -79,8 +79,8 @@ A beautiful Flutter app to track multiple good habits (fasting, YouTube videos, 
 ### Quick Start Scripts
 
 **Windows:**
-- Double-click `run-app.bat` to launch the app
-- Or use PowerShell: `.\run-app.ps1`
+- Double-click `scripts\run-app.bat` to launch the app
+- Or use PowerShell: `.\scripts\run-app.ps1`
 
 **Command Line:**
 ```bash
@@ -244,7 +244,7 @@ Use the provided build scripts:
 
 **Windows (Command Prompt/PowerShell):**
 ```bash
-.\build-apk.bat
+.\scripts\build-apk.bat
 ```
 
 Or manually:
@@ -324,7 +324,7 @@ The build scripts automatically:
 
 3. **Install directly:**
    ```bash
-   .\install-on-phone.bat
+   .\scripts\install-on-phone.bat
    ```
 
    Or manually:

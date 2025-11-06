@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter build:*)",
+      "Bash(.build-apk.bat)",
+      "Bash(./android/gradlew:*)",
+      "Bash(export JAVA_HOME=\"/c/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot\":*)",
+      "Bash(cmd.exe /c build-apk.bat)",
+      "Bash(\"/c/Users/Hamed/Documents/flutter/bin/flutter.bat\" build apk --release)",
+      "Bash(\"/c/Users/Hamed/Documents/flutter/bin/flutter.bat\" doctor)",
+      "Bash(\"/c/Android/sdk/cmdline-tools/latest/bin/sdkmanager.bat\" --licenses)",
+      "Bash(\"/c/Users/Hamed/Documents/flutter/bin/flutter.bat\" doctor --android-licenses)",
+      "Bash(\"/c/Users/Hamed/Documents/flutter/bin/flutter.bat\" config --android-sdk \"C:\\Users\\Hamed\\AppData\\Local\\Android\\Sdk\")",
+      "Bash(\"/c/Users/Hamed/Documents/flutter/bin/flutter.bat\" create --platforms=android .)",
+      "Bash(git checkout:*)",
+      "Bash(\"/c/Users/Hamed/Documents/flutter/bin/flutter.bat\" clean)",
+      "Bash(\"/c/Users/Hamed/AppData/Local/Android/Sdk/cmdline-tools/latest/bin/sdkmanager.bat\" --list)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
